@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6E97BA298B8B34000F84B4 /* StartAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */; };
 		2C998CA2298AB5BF00D35842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CA1298AB5BF00D35842 /* AppDelegate.swift */; };
 		2C998CA4298AB5BF00D35842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */; };
 		2C998CA9298AB5BF00D35842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C998CA7298AB5BF00D35842 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAppViewController.swift; sourceTree = "<group>"; };
 		2C998C9E298AB5BF00D35842 /* BlackJackGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJackGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C998CA1298AB5BF00D35842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +46,6 @@
 		2C998C95298AB5BF00D35842 = {
 			isa = PBXGroup;
 			children = (
-				2C998CB7298ABEA600D35842 /* BlackJack.swift */,
 				2C998CA0298AB5BF00D35842 /* BlackJackGame */,
 				2C998C9F298AB5BF00D35842 /* Products */,
 			);
@@ -63,6 +64,8 @@
 			children = (
 				2C998CA1298AB5BF00D35842 /* AppDelegate.swift */,
 				2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */,
+				2C998CB7298ABEA600D35842 /* BlackJack.swift */,
+				2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */,
 				2C998CA7298AB5BF00D35842 /* Main.storyboard */,
 				2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */,
 				2C998CAA298AB5C000D35842 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C998CB8298ABEA600D35842 /* BlackJack.swift in Sources */,
+				2C6E97BA298B8B34000F84B4 /* StartAppViewController.swift in Sources */,
 				2C998CBA298ABEEE00D35842 /* BlackJackViewController.swift in Sources */,
 				2C998CA2298AB5BF00D35842 /* AppDelegate.swift in Sources */,
 				2C998CB6298ABA6C00D35842 /* GameViewController.swift in Sources */,

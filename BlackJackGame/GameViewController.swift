@@ -13,14 +13,10 @@ class GameViewController: UIViewController {
     @IBOutlet weak var startButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        startButton.backgroundColor = .red
-        startButton.titleLabel?.textColor = .black
-        startButton.layer.shadowRadius = 8
-        startButton.layer.cornerRadius = 20
-        mainLabel.textColor = .red
+        startButton.layer.shadowRadius = 5
+        startButton.layer.cornerRadius = 10
+        startButton.backgroundColor = #colorLiteral(red: 0.7562164664, green: 0.4985180497, blue: 0.9188113213, alpha: 1)
+        startButton.titleLabel?.textColor = #colorLiteral(red: 0.6315690279, green: 0.9753151536, blue: 1, alpha: 1)
     }
-    
-
-   
 
 }
