@@ -145,8 +145,8 @@ class BlackJackViewController: UIViewController {
         GameBlackJack.shared.resetGame()
         resultGameLabel.isHidden = true
         dealerSumLabel.isHidden = true
-        userCardLabel.image = UIImage(named: "backCard")
-        dealerCardLabel.image = UIImage(named: "backCard")
+        userCardLabel.image = UIImage(named: "backCard2")
+        dealerCardLabel.image = UIImage(named: "backCard2")
         sumLabel.isHidden = true
         takeCardButton.isHidden = false
         stopTakeCardButton.isHidden = false
