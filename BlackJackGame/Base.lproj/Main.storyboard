@@ -64,8 +64,8 @@
                                 <color key="textColor" red="0.70911622287639542" green="0.96638282115782503" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="лунтик" translatesAutoresizingMaskIntoConstraints="NO" id="R33-cb-oif">
-                                <rect key="frame" x="8" y="215" width="377" height="365"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="лунт" translatesAutoresizingMaskIntoConstraints="NO" id="R33-cb-oif">
+                                <rect key="frame" x="8" y="222" width="377" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -353,7 +353,7 @@
     <resources>
         <image name="backCard2" width="512" height="512"/>
         <image name="blackjackItem" width="32" height="32"/>
-        <image name="лунтик" width="1080" height="1080"/>
+        <image name="лунт" width="803" height="988"/>
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
