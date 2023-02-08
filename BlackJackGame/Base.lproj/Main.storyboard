@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNi-CN-eL7">
-                                <rect key="frame" x="146" y="613" width="100" height="32"/>
+                                <rect key="frame" x="146" y="646" width="100" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
@@ -36,6 +36,18 @@
                                     <action selector="pressStartButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="4me-Rj-Yrm"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="бабочка" translatesAutoresizingMaskIntoConstraints="NO" id="ujj-uV-7MP">
+                                <rect key="frame" x="67" y="234" width="258" height="384"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghf-8C-ppz">
+                                <rect key="frame" x="88" y="135" width="217.33333333333337" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.91764706370000004" green="0.20000001789999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="44"/>
+                                <color key="textColor" red="0.70911622289999998" green="0.96638282119999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1nm-2G-4Zc"/>
                         <color key="backgroundColor" red="0.71899617810000005" green="0.50985616970000003" blue="0.89411771299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -48,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aai-Fb-mWG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="103" y="480"/>
+            <point key="canvasLocation" x="101.5267175572519" y="479.57746478873241"/>
         </scene>
         <!--Apple Game View Controller-->
         <scene sceneID="6al-Jx-zVk">
@@ -436,7 +448,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="08w-fw-okZ"/>
                     <connections>
-                        <outlet property="statusGame" destination="8Ey-KK-lp5" id="eUJ-6P-T4w"/>
+                        <outlet property="statusGame" destination="8Ey-KK-lp5" id="Zpo-LU-gdc"/>
                         <outletCollection property="cardButton" destination="Zg3-7T-MHi" collectionClass="NSMutableArray" id="54o-Fc-pgZ"/>
                         <outletCollection property="cardButton" destination="gtV-tz-jJ0" collectionClass="NSMutableArray" id="uBI-Fg-dyt"/>
                         <outletCollection property="cardButton" destination="jeN-Qa-aku" collectionClass="NSMutableArray" id="h16-aJ-D9G"/>
@@ -858,9 +870,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="apple.logo" catalog="system" width="32" height="32"/>
+        <image name="apple.logo" catalog="system" width="105" height="128"/>
         <image name="backCard2" width="512" height="512"/>
         <image name="blackjackItem" width="32" height="32"/>
+        <image name="бабочка" width="410" height="600"/>
         <image name="лунт" width="803" height="988"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
