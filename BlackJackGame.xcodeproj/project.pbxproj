@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C25B14E2994140600820EEF /* StartApplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C25B14D2994140600820EEF /* StartApplesViewController.swift */; };
 		2C6E97BA298B8B34000F84B4 /* StartAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */; };
+		2C7C54E12992D9B600D409A4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C54E02992D9B600D409A4 /* WeatherViewController.swift */; };
+		2C7C54E42992DA0500D409A4 /* NetworkFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C54E32992DA0500D409A4 /* NetworkFetch.swift */; };
 		2C998CA2298AB5BF00D35842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CA1298AB5BF00D35842 /* AppDelegate.swift */; };
 		2C998CA4298AB5BF00D35842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */; };
 		2C998CA9298AB5BF00D35842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C998CA7298AB5BF00D35842 /* Main.storyboard */; };
@@ -16,10 +19,15 @@
 		2C998CB6298ABA6C00D35842 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB5298ABA6C00D35842 /* GameViewController.swift */; };
 		2C998CB8298ABEA600D35842 /* BlackJack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB7298ABEA600D35842 /* BlackJack.swift */; };
 		2C998CBA298ABEEE00D35842 /* BlackJackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */; };
+		2CF6176D2993A90100710B45 /* AppleGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6176C2993A90100710B45 /* AppleGameViewController.swift */; };
+		2CF617742993EADB00710B45 /* AppleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF617732993EADB00710B45 /* AppleGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C25B14D2994140600820EEF /* StartApplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartApplesViewController.swift; sourceTree = "<group>"; };
 		2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAppViewController.swift; sourceTree = "<group>"; };
+		2C7C54E02992D9B600D409A4 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		2C7C54E32992DA0500D409A4 /* NetworkFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetch.swift; sourceTree = "<group>"; };
 		2C998C9E298AB5BF00D35842 /* BlackJackGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJackGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C998CA1298AB5BF00D35842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +38,8 @@
 		2C998CB5298ABA6C00D35842 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2C998CB7298ABEA600D35842 /* BlackJack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJack.swift; sourceTree = "<group>"; };
 		2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackViewController.swift; sourceTree = "<group>"; };
+		2CF6176C2993A90100710B45 /* AppleGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleGameViewController.swift; sourceTree = "<group>"; };
+		2CF617732993EADB00710B45 /* AppleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C7C54E22992D9DE00D409A4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C54E32992DA0500D409A4 /* NetworkFetch.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		2C998C95298AB5BF00D35842 = {
 			isa = PBXGroup;
 			children = (
@@ -62,18 +80,39 @@
 		2C998CA0298AB5BF00D35842 /* BlackJackGame */ = {
 			isa = PBXGroup;
 			children = (
+				2C7C54E22992D9DE00D409A4 /* Network */,
 				2C998CA1298AB5BF00D35842 /* AppDelegate.swift */,
 				2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */,
-				2C998CB7298ABEA600D35842 /* BlackJack.swift */,
-				2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */,
 				2C998CA7298AB5BF00D35842 /* Main.storyboard */,
-				2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */,
+				2CF617712993E82300710B45 /* GameScripts */,
 				2C998CAA298AB5C000D35842 /* Assets.xcassets */,
 				2C998CAC298AB5C000D35842 /* LaunchScreen.storyboard */,
 				2C998CAF298AB5C000D35842 /* Info.plist */,
-				2C998CB5298ABA6C00D35842 /* GameViewController.swift */,
+				2CF617722993E87E00710B45 /* ViewControllers */,
 			);
 			path = BlackJackGame;
+			sourceTree = "<group>";
+		};
+		2CF617712993E82300710B45 /* GameScripts */ = {
+			isa = PBXGroup;
+			children = (
+				2C998CB7298ABEA600D35842 /* BlackJack.swift */,
+				2CF617732993EADB00710B45 /* AppleGame.swift */,
+			);
+			path = GameScripts;
+			sourceTree = "<group>";
+		};
+		2CF617722993E87E00710B45 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CF6176C2993A90100710B45 /* AppleGameViewController.swift */,
+				2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */,
+				2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */,
+				2C7C54E02992D9B600D409A4 /* WeatherViewController.swift */,
+				2C998CB5298ABA6C00D35842 /* GameViewController.swift */,
+				2C25B14D2994140600820EEF /* StartApplesViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,10 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF6176D2993A90100710B45 /* AppleGameViewController.swift in Sources */,
 				2C998CB8298ABEA600D35842 /* BlackJack.swift in Sources */,
+				2CF617742993EADB00710B45 /* AppleGame.swift in Sources */,
+				2C7C54E42992DA0500D409A4 /* NetworkFetch.swift in Sources */,
 				2C6E97BA298B8B34000F84B4 /* StartAppViewController.swift in Sources */,
 				2C998CBA298ABEEE00D35842 /* BlackJackViewController.swift in Sources */,
+				2C25B14E2994140600820EEF /* StartApplesViewController.swift in Sources */,
 				2C998CA2298AB5BF00D35842 /* AppDelegate.swift in Sources */,
+				2C7C54E12992D9B600D409A4 /* WeatherViewController.swift in Sources */,
 				2C998CB6298ABA6C00D35842 /* GameViewController.swift in Sources */,
 				2C998CA4298AB5BF00D35842 /* SceneDelegate.swift in Sources */,
 			);
