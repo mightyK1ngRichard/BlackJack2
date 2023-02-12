@@ -138,7 +138,6 @@ class BlackJackViewController: UIViewController {
         alertController.addAction(watchResult)
         alertController.addAction(backAction)
         self.present(alertController, animated: true)
-        
     }
     
     private func newGame() {

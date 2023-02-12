@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -75,7 +74,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="rAe-o9-HUq"/>
@@ -87,7 +86,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="BGo-q4-CLE"/>
@@ -99,7 +98,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="jrT-yz-OEV"/>
@@ -111,7 +110,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="e6I-sp-XlD"/>
@@ -123,7 +122,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="bF9-sj-5FS"/>
@@ -135,7 +134,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="Pbl-To-yIt"/>
@@ -147,7 +146,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="e0q-eT-K5Y"/>
@@ -159,7 +158,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="9AH-eV-lEZ"/>
@@ -171,7 +170,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="2BG-EP-5zZ"/>
@@ -183,7 +182,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="Qv9-RS-IlH"/>
@@ -195,7 +194,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="GVE-dj-Sfp"/>
@@ -207,7 +206,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="YKF-IH-0IS"/>
@@ -219,7 +218,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="eJj-g0-9sx"/>
@@ -231,7 +230,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="8pO-Jf-1yx"/>
@@ -243,7 +242,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="6Fy-Rf-dhF"/>
@@ -255,7 +254,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="EVh-7L-VHj"/>
@@ -267,7 +266,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="Unl-8l-7EC"/>
@@ -279,7 +278,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="oOg-wT-V2a"/>
@@ -291,7 +290,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="Pog-gW-beI"/>
@@ -303,7 +302,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="PwG-Fc-AAH"/>
@@ -315,7 +314,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="8SS-iS-mne"/>
@@ -327,7 +326,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="71P-u4-QH3"/>
@@ -339,7 +338,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="cBb-Dc-KTo"/>
@@ -351,7 +350,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="A4S-Lv-HvD"/>
@@ -363,7 +362,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="G0a-o8-br7"/>
@@ -375,7 +374,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="5zl-gB-tYW"/>
@@ -387,7 +386,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="ooA-ec-xew"/>
@@ -399,7 +398,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="EIM-MJ-oDU"/>
@@ -411,7 +410,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="QGX-aH-a8V" eventType="touchUpInside" id="bmU-RI-4YG"/>
@@ -423,7 +422,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
-                                    <color key="baseBackgroundColor" red="0.083372790399999994" green="0.057837013569999998" blue="0.074778116569999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.32549020649999999" blue="0.47843140360000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="pressButton:" destination="fDV-5W-jh8" eventType="touchUpInside" id="qIe-hF-ej5"/>
@@ -492,14 +491,38 @@
                     <view key="view" contentMode="scaleToFill" id="MmR-mZ-rVw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5 ºC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifl-xw-g6D">
+                                <rect key="frame" x="147" y="179" width="98" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moscow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEO-si-bLQ">
+                                <rect key="frame" x="164" y="150" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="шер" translatesAutoresizingMaskIntoConstraints="NO" id="aWM-lj-yDK">
+                                <rect key="frame" x="-34" y="228" width="461" height="488"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IUY-Xj-m1x"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.71899617810000005" green="0.50985616970000003" blue="0.89411771299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" title="Погода" id="2ic-UB-FjQ"/>
+                    <connections>
+                        <outlet property="cityLabel" destination="SEO-si-bLQ" id="E2D-1u-ziU"/>
+                        <outlet property="temperatureLabel" destination="Ifl-xw-g6D" id="J07-Ax-Uks"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgh-vT-nfc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1709" y="480"/>
+            <point key="canvasLocation" x="-1709.1603053435115" y="479.57746478873241"/>
         </scene>
         <!--21-->
         <scene sceneID="r6o-lv-o6F">
@@ -875,8 +898,6 @@
         <image name="blackjackItem" width="32" height="32"/>
         <image name="бабочка" width="410" height="600"/>
         <image name="лунт" width="803" height="988"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="шер" width="540" height="540"/>
     </resources>
 </document>
