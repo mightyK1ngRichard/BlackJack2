@@ -19,7 +19,6 @@ class WeatherViewController: UIViewController {
             DispatchQueue.main.async { [weak self] in
                 guard let self else { return }
                 if let temperature = data?.main.temp {
-                    print(temperature - 273.15)
                     self.temperatureLabel.text = "\(Int(round(temperature - 273.15))) ºC"
                 } else {
                     self.temperatureLabel.text = "Не известно"

@@ -19,6 +19,8 @@
 		2C998CB6298ABA6C00D35842 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB5298ABA6C00D35842 /* GameViewController.swift */; };
 		2C998CB8298ABEA600D35842 /* BlackJack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB7298ABEA600D35842 /* BlackJack.swift */; };
 		2C998CBA298ABEEE00D35842 /* BlackJackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */; };
+		2CBFA46529997D0900DD4840 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFA46429997D0900DD4840 /* AuthViewController.swift */; };
+		2CDCF4C2299969A70070C87E /* insertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDCF4C1299969A70070C87E /* insertableTextField.swift */; };
 		2CF6176D2993A90100710B45 /* AppleGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6176C2993A90100710B45 /* AppleGameViewController.swift */; };
 		2CF617742993EADB00710B45 /* AppleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF617732993EADB00710B45 /* AppleGame.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		2C998CB5298ABA6C00D35842 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2C998CB7298ABEA600D35842 /* BlackJack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJack.swift; sourceTree = "<group>"; };
 		2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackViewController.swift; sourceTree = "<group>"; };
+		2CBFA46429997D0900DD4840 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		2CDCF4C1299969A70070C87E /* insertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertableTextField.swift; sourceTree = "<group>"; };
 		2CF6176C2993A90100710B45 /* AppleGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleGameViewController.swift; sourceTree = "<group>"; };
 		2CF617732993EADB00710B45 /* AppleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +68,7 @@
 		2C998C95298AB5BF00D35842 = {
 			isa = PBXGroup;
 			children = (
+				2CDCF4C42999755D0070C87E /* Authorisation */,
 				2C998CA0298AB5BF00D35842 /* BlackJackGame */,
 				2C998C9F298AB5BF00D35842 /* Products */,
 			);
@@ -93,6 +98,14 @@
 			path = BlackJackGame;
 			sourceTree = "<group>";
 		};
+		2CDCF4C42999755D0070C87E /* Authorisation */ = {
+			isa = PBXGroup;
+			children = (
+				2CDCF4C1299969A70070C87E /* insertableTextField.swift */,
+			);
+			path = Authorisation;
+			sourceTree = "<group>";
+		};
 		2CF617712993E82300710B45 /* GameScripts */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +124,7 @@
 				2C7C54E02992D9B600D409A4 /* WeatherViewController.swift */,
 				2C998CB5298ABA6C00D35842 /* GameViewController.swift */,
 				2C25B14D2994140600820EEF /* StartApplesViewController.swift */,
+				2CBFA46429997D0900DD4840 /* AuthViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -192,7 +206,9 @@
 				2C7C54E42992DA0500D409A4 /* NetworkFetch.swift in Sources */,
 				2C6E97BA298B8B34000F84B4 /* StartAppViewController.swift in Sources */,
 				2C998CBA298ABEEE00D35842 /* BlackJackViewController.swift in Sources */,
+				2CDCF4C2299969A70070C87E /* insertableTextField.swift in Sources */,
 				2C25B14E2994140600820EEF /* StartApplesViewController.swift in Sources */,
+				2CBFA46529997D0900DD4840 /* AuthViewController.swift in Sources */,
 				2C998CA2298AB5BF00D35842 /* AppDelegate.swift in Sources */,
 				2C7C54E12992D9B600D409A4 /* WeatherViewController.swift in Sources */,
 				2C998CB6298ABA6C00D35842 /* GameViewController.swift in Sources */,
