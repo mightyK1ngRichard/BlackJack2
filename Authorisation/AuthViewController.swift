@@ -18,25 +18,35 @@ class AuthViewController: UIViewController {
     }
     
     @IBAction func pressLogin(_ sender: Any) {
-        loginLabel.text = ""
+        if loginLabel.text == "mightyK1ngRichard@gmail.com" {
+            loginLabel.text = ""
+        }
     }
     
     @IBAction func pressPassword(_ sender: Any) {
-        passwordLabel.text = ""
+        if passwordLabel.text == "***********" {
+            passwordLabel.text = ""
+        }
     }
     
     @IBAction func pressPasswordDid(_ sender: Any) {
-        print(passwordLabel.text ?? "")
+        if passwordLabel.text == "" {
+            passwordLabel.text = "***********"
+        }
     }
     
     @IBAction func pressLoginDid(_ sender: Any) {
-        print(loginLabel.text ?? "")
+        if loginLabel.text == "" {
+            loginLabel.text = "mightyK1ngRichard@gmail.com"
+        }
     }
     
     @IBAction func pressRegister(_ sender: Any) {
         // TODO: - сделать проверку пароля.
-        print(loginLabel.text ?? "")
-        print(passwordLabel.text ?? "")
-        performSegue(withIdentifier: "goToStartMenuFromAuth", sender: nil)
+//        performSegue(withIdentifier: "goToStartMenuFromAuth", sender: nil)
     }
+    
+    // MARK: - datas
+//    private var words = 0
+    
 }

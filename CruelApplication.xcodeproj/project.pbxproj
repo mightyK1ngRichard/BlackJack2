@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2C25B14E2994140600820EEF /* StartApplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C25B14D2994140600820EEF /* StartApplesViewController.swift */; };
-		2C6E97BA298B8B34000F84B4 /* StartAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */; };
 		2C7C54E12992D9B600D409A4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C54E02992D9B600D409A4 /* WeatherViewController.swift */; };
 		2C7C54E42992DA0500D409A4 /* NetworkFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C54E32992DA0500D409A4 /* NetworkFetch.swift */; };
-		2C998CA2298AB5BF00D35842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CA1298AB5BF00D35842 /* AppDelegate.swift */; };
 		2C998CA4298AB5BF00D35842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */; };
 		2C998CA9298AB5BF00D35842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C998CA7298AB5BF00D35842 /* Main.storyboard */; };
 		2C998CAB298AB5C000D35842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C998CAA298AB5C000D35842 /* Assets.xcassets */; };
@@ -19,19 +17,21 @@
 		2C998CB6298ABA6C00D35842 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB5298ABA6C00D35842 /* GameViewController.swift */; };
 		2C998CB8298ABEA600D35842 /* BlackJack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB7298ABEA600D35842 /* BlackJack.swift */; };
 		2C998CBA298ABEEE00D35842 /* BlackJackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */; };
+		2CBB7F79299A7544009A01CE /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB7F78299A7544009A01CE /* DictionaryViewController.swift */; };
+		2CBB7F7B299A77A4009A01CE /* WordsDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB7F7A299A77A4009A01CE /* WordsDictionary.swift */; };
 		2CBFA46529997D0900DD4840 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFA46429997D0900DD4840 /* AuthViewController.swift */; };
 		2CDCF4C2299969A70070C87E /* insertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDCF4C1299969A70070C87E /* insertableTextField.swift */; };
 		2CF6176D2993A90100710B45 /* AppleGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6176C2993A90100710B45 /* AppleGameViewController.swift */; };
 		2CF617742993EADB00710B45 /* AppleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF617732993EADB00710B45 /* AppleGame.swift */; };
+		2CF74A1E299AD58500C91E23 /* ChoiceMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF74A1D299AD58500C91E23 /* ChoiceMenuViewController.swift */; };
+		2CF74A23299AD9D000C91E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF74A22299AD9D000C91E23 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C25B14D2994140600820EEF /* StartApplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartApplesViewController.swift; sourceTree = "<group>"; };
-		2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAppViewController.swift; sourceTree = "<group>"; };
 		2C7C54E02992D9B600D409A4 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		2C7C54E32992DA0500D409A4 /* NetworkFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetch.swift; sourceTree = "<group>"; };
-		2C998C9E298AB5BF00D35842 /* BlackJackGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJackGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C998CA1298AB5BF00D35842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C998C9E298AB5BF00D35842 /* CruelApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruelApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C998CA8298AB5BF00D35842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C998CAA298AB5C000D35842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,10 +40,14 @@
 		2C998CB5298ABA6C00D35842 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2C998CB7298ABEA600D35842 /* BlackJack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJack.swift; sourceTree = "<group>"; };
 		2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackViewController.swift; sourceTree = "<group>"; };
+		2CBB7F78299A7544009A01CE /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
+		2CBB7F7A299A77A4009A01CE /* WordsDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsDictionary.swift; sourceTree = "<group>"; };
 		2CBFA46429997D0900DD4840 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		2CDCF4C1299969A70070C87E /* insertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertableTextField.swift; sourceTree = "<group>"; };
 		2CF6176C2993A90100710B45 /* AppleGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleGameViewController.swift; sourceTree = "<group>"; };
 		2CF617732993EADB00710B45 /* AppleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleGame.swift; sourceTree = "<group>"; };
+		2CF74A1D299AD58500C91E23 /* ChoiceMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceMenuViewController.swift; sourceTree = "<group>"; };
+		2CF74A22299AD9D000C91E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,19 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C7C54E22992D9DE00D409A4 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				2C7C54E32992DA0500D409A4 /* NetworkFetch.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		2C998C95298AB5BF00D35842 = {
 			isa = PBXGroup;
 			children = (
+				2CBB7F80299AC928009A01CE /* Dictionary */,
 				2CDCF4C42999755D0070C87E /* Authorisation */,
-				2C998CA0298AB5BF00D35842 /* BlackJackGame */,
+				2CBB7F7C299AC7CA009A01CE /* Casino */,
+				2CBB7F7F299AC864009A01CE /* Network */,
+				2C998CA0298AB5BF00D35842 /* Delegate */,
 				2C998C9F298AB5BF00D35842 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,64 +76,87 @@
 		2C998C9F298AB5BF00D35842 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C998C9E298AB5BF00D35842 /* BlackJackGame.app */,
+				2C998C9E298AB5BF00D35842 /* CruelApplication.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C998CA0298AB5BF00D35842 /* BlackJackGame */ = {
+		2C998CA0298AB5BF00D35842 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				2C7C54E22992D9DE00D409A4 /* Network */,
-				2C998CA1298AB5BF00D35842 /* AppDelegate.swift */,
 				2C998CA3298AB5BF00D35842 /* SceneDelegate.swift */,
 				2C998CA7298AB5BF00D35842 /* Main.storyboard */,
-				2CF617712993E82300710B45 /* GameScripts */,
 				2C998CAA298AB5C000D35842 /* Assets.xcassets */,
 				2C998CAC298AB5C000D35842 /* LaunchScreen.storyboard */,
 				2C998CAF298AB5C000D35842 /* Info.plist */,
-				2CF617722993E87E00710B45 /* ViewControllers */,
+				2CF74A22299AD9D000C91E23 /* AppDelegate.swift */,
 			);
-			path = BlackJackGame;
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		2CBB7F7C299AC7CA009A01CE /* Casino */ = {
+			isa = PBXGroup;
+			children = (
+				2CBB7F7E299AC803009A01CE /* Apples */,
+				2CBB7F7D299AC7F4009A01CE /* BlackJack */,
+			);
+			path = Casino;
+			sourceTree = "<group>";
+		};
+		2CBB7F7D299AC7F4009A01CE /* BlackJack */ = {
+			isa = PBXGroup;
+			children = (
+				2C998CB7298ABEA600D35842 /* BlackJack.swift */,
+				2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */,
+				2C998CB5298ABA6C00D35842 /* GameViewController.swift */,
+			);
+			path = BlackJack;
+			sourceTree = "<group>";
+		};
+		2CBB7F7E299AC803009A01CE /* Apples */ = {
+			isa = PBXGroup;
+			children = (
+				2C25B14D2994140600820EEF /* StartApplesViewController.swift */,
+				2CF6176C2993A90100710B45 /* AppleGameViewController.swift */,
+				2CF617732993EADB00710B45 /* AppleGame.swift */,
+			);
+			path = Apples;
+			sourceTree = "<group>";
+		};
+		2CBB7F7F299AC864009A01CE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2C7C54E32992DA0500D409A4 /* NetworkFetch.swift */,
+				2C7C54E02992D9B600D409A4 /* WeatherViewController.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2CBB7F80299AC928009A01CE /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				2CBB7F7A299A77A4009A01CE /* WordsDictionary.swift */,
+				2CBB7F78299A7544009A01CE /* DictionaryViewController.swift */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 		2CDCF4C42999755D0070C87E /* Authorisation */ = {
 			isa = PBXGroup;
 			children = (
 				2CDCF4C1299969A70070C87E /* insertableTextField.swift */,
+				2CBFA46429997D0900DD4840 /* AuthViewController.swift */,
+				2CF74A1D299AD58500C91E23 /* ChoiceMenuViewController.swift */,
 			);
 			path = Authorisation;
-			sourceTree = "<group>";
-		};
-		2CF617712993E82300710B45 /* GameScripts */ = {
-			isa = PBXGroup;
-			children = (
-				2C998CB7298ABEA600D35842 /* BlackJack.swift */,
-				2CF617732993EADB00710B45 /* AppleGame.swift */,
-			);
-			path = GameScripts;
-			sourceTree = "<group>";
-		};
-		2CF617722993E87E00710B45 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				2CF6176C2993A90100710B45 /* AppleGameViewController.swift */,
-				2C6E97B9298B8B34000F84B4 /* StartAppViewController.swift */,
-				2C998CB9298ABEEE00D35842 /* BlackJackViewController.swift */,
-				2C7C54E02992D9B600D409A4 /* WeatherViewController.swift */,
-				2C998CB5298ABA6C00D35842 /* GameViewController.swift */,
-				2C25B14D2994140600820EEF /* StartApplesViewController.swift */,
-				2CBFA46429997D0900DD4840 /* AuthViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C998C9D298AB5BF00D35842 /* BlackJackGame */ = {
+		2C998C9D298AB5BF00D35842 /* CruelApplication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C998CB2298AB5C000D35842 /* Build configuration list for PBXNativeTarget "BlackJackGame" */;
+			buildConfigurationList = 2C998CB2298AB5C000D35842 /* Build configuration list for PBXNativeTarget "CruelApplication" */;
 			buildPhases = (
 				2C998C9A298AB5BF00D35842 /* Sources */,
 				2C998C9B298AB5BF00D35842 /* Frameworks */,
@@ -144,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = BlackJackGame;
+			name = CruelApplication;
 			productName = BlackJackGame;
-			productReference = 2C998C9E298AB5BF00D35842 /* BlackJackGame.app */;
+			productReference = 2C998C9E298AB5BF00D35842 /* CruelApplication.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C998C99298AB5BF00D35842 /* Build configuration list for PBXProject "BlackJackGame" */;
+			buildConfigurationList = 2C998C99298AB5BF00D35842 /* Build configuration list for PBXProject "CruelApplication" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C998C9D298AB5BF00D35842 /* BlackJackGame */,
+				2C998C9D298AB5BF00D35842 /* CruelApplication */,
 			);
 		};
 /* End PBXProject section */
@@ -203,15 +225,17 @@
 				2CF6176D2993A90100710B45 /* AppleGameViewController.swift in Sources */,
 				2C998CB8298ABEA600D35842 /* BlackJack.swift in Sources */,
 				2CF617742993EADB00710B45 /* AppleGame.swift in Sources */,
+				2CF74A23299AD9D000C91E23 /* AppDelegate.swift in Sources */,
+				2CBB7F7B299A77A4009A01CE /* WordsDictionary.swift in Sources */,
 				2C7C54E42992DA0500D409A4 /* NetworkFetch.swift in Sources */,
-				2C6E97BA298B8B34000F84B4 /* StartAppViewController.swift in Sources */,
 				2C998CBA298ABEEE00D35842 /* BlackJackViewController.swift in Sources */,
 				2CDCF4C2299969A70070C87E /* insertableTextField.swift in Sources */,
 				2C25B14E2994140600820EEF /* StartApplesViewController.swift in Sources */,
 				2CBFA46529997D0900DD4840 /* AuthViewController.swift in Sources */,
-				2C998CA2298AB5BF00D35842 /* AppDelegate.swift in Sources */,
 				2C7C54E12992D9B600D409A4 /* WeatherViewController.swift in Sources */,
+				2CF74A1E299AD58500C91E23 /* ChoiceMenuViewController.swift in Sources */,
 				2C998CB6298ABA6C00D35842 /* GameViewController.swift in Sources */,
+				2CBB7F79299A7544009A01CE /* DictionaryViewController.swift in Sources */,
 				2C998CA4298AB5BF00D35842 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +384,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BlackJackGame/Info.plist;
+				INFOPLIST_FILE = Delegate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cruel;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -387,7 +412,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BlackJackGame/Info.plist;
+				INFOPLIST_FILE = Delegate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cruel;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -409,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C998C99298AB5BF00D35842 /* Build configuration list for PBXProject "BlackJackGame" */ = {
+		2C998C99298AB5BF00D35842 /* Build configuration list for PBXProject "CruelApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C998CB0298AB5C000D35842 /* Debug */,
@@ -418,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C998CB2298AB5C000D35842 /* Build configuration list for PBXNativeTarget "BlackJackGame" */ = {
+		2C998CB2298AB5C000D35842 /* Build configuration list for PBXNativeTarget "CruelApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C998CB3298AB5C000D35842 /* Debug */,
